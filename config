@@ -302,6 +302,7 @@ fi
 ngx_addon_name=ngx_stream_lua_module
 STREAM_MODULES="$STREAM_MODULES ngx_stream_lua_module"
 NGX_ADDON_SRCS="$NGX_ADDON_SRCS \
+                $ngx_addon_dir/src/ngx_stream_lua_api.c \
                 $ngx_addon_dir/src/ngx_stream_lua_module.c \
                 $ngx_addon_dir/src/ngx_stream_lua_directive.c \
                 $ngx_addon_dir/src/ngx_stream_lua_lex.c \
